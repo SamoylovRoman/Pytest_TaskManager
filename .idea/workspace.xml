@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3b360b-8b12-44b5-a659-18f28ff04aa8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/task_manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/task_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_tasks.py" afterDir="false" />
+    <list default="true" id="ab3b360b-8b12-44b5-a659-18f28ff04aa8" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SamoylovRoman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SamoylovRoman/Pytest_TaskManager.git",
+    "accountId": "f629ce61-79d8-4f75-958e-bdbfa9cef697"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,23 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_cli.test_cli_add_and_exit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_cli.test_cli_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_cli.test_cli_mark_done.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_tasks.test_add_task.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_tasks.test_list_tasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_tasks.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cli.executor&quot;: &quot;Run&quot;,
-    &quot;Python.init.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/task_manager/task_manager/init.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_cli.test_cli_add_and_exit.executor": "Run",
+    "Python tests.Python tests for test_cli.test_cli_done_no_id.executor": "Run",
+    "Python tests.Python tests for test_cli.test_cli_list.executor": "Run",
+    "Python tests.Python tests for test_cli.test_cli_mark_done.executor": "Run",
+    "Python tests.Python tests for test_cli.test_cli_unknown_command.executor": "Run",
+    "Python tests.Python tests for test_tasks.test_add_task.executor": "Run",
+    "Python tests.Python tests for test_tasks.test_list_tasks.executor": "Run",
+    "Python tests.Python tests in test_tasks.py.executor": "Run",
+    "Python.cli.executor": "Run",
+    "Python.init.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/Desktop/task_manager/task_manager/init.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\task_manager\task_manager\app" />
@@ -139,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_cli.test_cli_add_and_exit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_cli.test_cli_done_no_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="task_manager" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,22 +146,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cli.test_cli_add_and_exit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_cli.test_cli_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="task_manager" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cli.test_cli_list&quot;" />
+      <option name="_new_target" value="&quot;test_cli.test_cli_done_no_id&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -184,21 +165,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_cli.test_cli_unknown_command" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="task_manager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cli.test_cli_unknown_command&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.init" />
       <item itemvalue="Python.cli" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.Python tests for test_cli.test_cli_add_and_exit" />
-      <item itemvalue="Python tests.Python tests for test_cli.test_cli_list" />
+      <item itemvalue="Python tests.Python tests for test_cli.test_cli_done_no_id" />
+      <item itemvalue="Python tests.Python tests for test_cli.test_cli_unknown_command" />
       <item itemvalue="Python tests.Python tests for test_cli.test_cli_mark_done" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.cli" />
-        <item itemvalue="Python tests.Python tests for test_cli.test_cli_mark_done" />
+        <item itemvalue="Python tests.Python tests for test_cli.test_cli_done_no_id" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for test_cli.test_cli_list" />
-        <item itemvalue="Python tests.Python tests for test_cli.test_cli_add_and_exit" />
+        <item itemvalue="Python tests.Python tests for test_cli.test_cli_unknown_command" />
+        <item itemvalue="Python tests.Python tests for test_cli.test_cli_mark_done" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +214,20 @@
       <option name="presentableId" value="Default" />
       <updated>1760364566690</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1761126408079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761126408079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
