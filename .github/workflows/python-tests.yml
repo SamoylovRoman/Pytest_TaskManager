@@ -46,3 +46,22 @@ jobs:
         with:
           files: ./coverage.xml
           fail_ci_if_error: true
+
+      - name: 📥 Install Allure CLI
+        run: |
+          sudo apt update
+          sudo apt install -y openjdk-17-jre
+          wget https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz
+          tar -xzf allure-2.27.0.tgz
+          sudo mv allure-2.27.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+
+      - name: ⚙️ Generate Allure Report HTML
+        run: |
+          allure generate allure-results --clean -o allure-report
+
+      - name: 🚀 Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-report
