@@ -1,4 +1,5 @@
 # 📝 Task Manager CLI App (with SQLAlchemy + Pytest + Allure)
+[![Python Tests](https://github.com/SamoylovRoman/Pytest_TaskManager/actions/workflows/python-tests.yml/badge.svg?branch=master)](https://github.com/SamoylovRoman/Pytest_TaskManager/actions)
 
 A simple command-line to-do app built with Python, featuring:
 
@@ -18,12 +19,6 @@ A simple command-line to-do app built with Python, featuring:
 - 🧪 Unit + CLI tests with full test coverage
 - 🧼 In-memory test DB setup with `pytest` fixtures
 - 📊 Visual test reports with **Allure**
-
----
-
-# 📝 Task Manager CLI App (with SQLAlchemy + Pytest)
-
-[![Python Tests](https://github.com/SamoylovRoman/Pytest_TaskManager/actions/workflows/python-tests.yml/badge.svg?branch=master)](https://github.com/SamoylovRoman/Pytest_TaskManager/actions)
 
 ---
 
