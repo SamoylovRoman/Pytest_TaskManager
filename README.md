@@ -21,6 +21,12 @@ A simple command-line to-do app built with Python, featuring:
 
 ---
 
+# 📝 Task Manager CLI App (with SQLAlchemy + Pytest)
+
+[![Python Tests](https://github.com/SamoylovRoman/Pytest_TaskManager/actions/workflows/python-tests.yml/badge.svg?branch=master)](https://github.com/SamoylovRoman/Pytest_TaskManager/actions)
+
+---
+
 ## 📦 Requirements
 
 - Python 3.10+
@@ -28,9 +34,3 @@ A simple command-line to-do app built with Python, featuring:
 
 ```bash
 pip install -r requirements.txt
-
-
-# 📝 Task Manager CLI App (with SQLAlchemy + Pytest)
-
-[![Python Tests](https://github.com/SamoylovRoman/Pytest_TaskManager/actions/workflows/python-tests.yml/badge.svg?branch=master)](https://github.com/SamoylovRoman/Pytest_TaskManager/actions)
-
