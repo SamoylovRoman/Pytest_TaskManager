@@ -20,6 +20,7 @@ def test_db():
     db = TestingSessionLocal()
 
     try:
-        yield db
+        yield db  # Provide the session to the test
     finally:
-        db.close()
+        db.close()        # ✅ Close the session
+        engine.dispose()  # ✅ Dispose of the engine connection

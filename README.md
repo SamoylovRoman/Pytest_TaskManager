@@ -1,21 +1,23 @@
-# 📝 Task Manager CLI App (with SQLAlchemy + Pytest)
+# 📝 Task Manager CLI App (with SQLAlchemy + Pytest + Allure)
 
-A simple command-line to-do app built with Python, using:
+A simple command-line to-do app built with Python, featuring:
 
 - 🗃️ **SQLite** + **SQLAlchemy ORM** for storage
-- 🧪 **pytest** + **pytest-cov** for testing and coverage
-- 💻 A minimal **CLI interface** using `input()` and `print()`
+- 🧪 **pytest** + **pytest-cov** for test execution and coverage
+- 📊 **Allure** for beautiful test reporting
+- 💻 Minimal **CLI interface** using `input()` and `print()`
 
 ---
 
 ## 🚀 Features
 
-- Add tasks
-- List all tasks
-- Mark tasks as done
-- Delete tasks
-- Tested with unit + CLI tests (100% coverage)
-- Fully in-memory test DB setup via `pytest` fixtures
+- ➕ Add tasks
+- 📋 List tasks
+- ✅ Mark tasks as done
+- ❌ Delete tasks
+- 🧪 Unit + CLI tests with full test coverage
+- 🧼 In-memory test DB setup with `pytest` fixtures
+- 📊 Visual test reports with **Allure**
 
 ---
 
