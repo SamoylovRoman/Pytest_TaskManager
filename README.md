@@ -1,5 +1,6 @@
 # 📝 Task Manager CLI App (with SQLAlchemy + Pytest + Allure)
 [![Python Tests](https://github.com/SamoylovRoman/Pytest_TaskManager/actions/workflows/python-tests.yml/badge.svg?branch=master)](https://github.com/SamoylovRoman/Pytest_TaskManager/actions)
+[![codecov](https://codecov.io/gh/SamoylovRoman/Pytest_TaskManager/branch/master/graph/badge.svg)](https://codecov.io/gh/SamoylovRoman/Pytest_TaskManager)
 
 A simple command-line to-do app built with Python, featuring:
 
